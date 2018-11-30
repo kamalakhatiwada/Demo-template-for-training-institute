@@ -536,7 +536,7 @@ padding: 5px 0;
 }
 
 .testimonials .parathree{
-  font-size: 20px;
+  font-size: 15px;
   padding-top:5px;
   padding-bottom: 10px; 
 }
@@ -648,55 +648,64 @@ padding: 5px 0;
 
 @media only screen and (max-width:600px){
 
-.logo .header-info i {
-  font-size: 20px;
-  padding-right: 10px;
-  margin-right: 10px;
-  color:  #009933;
-  position: relative;
+
+.select{
+  margin: 0 10px;
 }
 
-.logo .header-info li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 12px;
+.stat-items{
+  margin-bottom: 30px;
 }
-
-.available .book i{
- text-align: center;
- color: white;
- font-size: 40px;
- padding: 10px 200px;
-}
-
-.available  .book p{
- padding: 5px 10px;
- 
-}
-.services .click img{
-  
-  margin-bottom:150px;
-  padding-top: 150px;
-
-}
-
-
 }
 
 /*small devices (portrait tablets and large phones,600px and up)*/
 
 @media only screen and (min-width:600px){
 
+.stat-items{
+  margin-bottom: 30px;
 }
 
-/*medium devices (landscapes,tablets,768px and up)*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+.available .book i{
+  text-align: center;
+  padding: 0 70px;
+}
+
+.available .book h2{
+  font-size: 15px;
+}
+
+.click {
+  margin-top: 25px;
+}
+
+.photo{
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.desc h3{
+  font-size: 17px;
+  font-weight: bold;
+}
+.desc p{
+  font-size: 13px;
+}
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width:992px){
-
-.services .click img{
-  margin-top: 150px;
-  margin-bottom:150px;
+.desc p{
+  font-size: 15px;
 }
+
 }
 
 /*extra large devices (large laptops and desktops,1200px and up)*/
