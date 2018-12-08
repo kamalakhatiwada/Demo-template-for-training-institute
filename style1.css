@@ -29,27 +29,17 @@ h6 {
 .logo .header-info {
   margin: 0;
   padding: 0;
-  margin-top: 30px;
-  padding-left: 20px;
-  list-style: none;
-  float: right;
-  width: 100%;
-}
-
-.logo .header-info li {
-  display: inline-block;
-  width: 20%;
-}
-
-.logo .header-info li a {
+  font-size: 18px;
+  color: rgba(124,124,124,0.81);
   text-decoration: none;
-  color: #333;
+  padding-left: 10px;
 }
+
 
 .logo .header-info i {
   font-size: 30px;
   padding-right: 30px;
-  margin-left: 20px;
+  margin-left: 30px;
   color:  #ff6600;
   position: relative;
 }
@@ -61,9 +51,9 @@ h6 {
   content: '';
   top: 50%;
   right: 0;
-  background: #eee;
-
+  background: green;
   transform: translate(0, -50%);
+  
 }
 
 /*================================menubar=======================================*/
@@ -81,21 +71,36 @@ h6 {
   color: #ff6600;
 }
 
-.nav-link:hover{
+.text:hover{
   background-color: #ff6600;
   color: white;
 }
 
-button.navbar-toggler{
-  color: #fff !important;
+#home{
+  background: #ff6600;
+  padding:15px 18px;
+  color: #fff;
 }
+.navbar-toggler:not(:disabled):not(.disabled){
+  cursor: pointer;
+ /* background: #bf7606 !important;*/
+}
+
+span.navbar-toggler-icon {
+    background:  #ff6600;
+    height: 4px;
+    display: block;
+    margin: 5px 0px;
+}
+
+
 /*,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,owlcarousel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
 
 
 
 .sliderpart .slider-item {
   min-height: 500px;
-  background: #0097a7;
+  /*background: #0097a7;*/
   position: relative;
   overflow: hidden;
 }
